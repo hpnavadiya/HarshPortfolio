@@ -614,6 +614,20 @@ footer .copyright {
         margin-top: 47px;
     }
 
+    @keyframes floatImage {
+        0% {
+            transform: translateY(0);
+        }
+    
+        50% {
+            transform: translateY(-0.7rem);
+        }
+    
+        100% {
+            transform: translateY(0);
+        }
+    }
+
     .first-section p {
         padding: 5px 54px;
     }
