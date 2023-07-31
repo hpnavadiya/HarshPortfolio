@@ -561,7 +561,7 @@ footer .copyright {
 
 /* responsive  */
 
-@media screen and (max-width: 950px) {
+/* @media screen and (max-width: 950px) {
 
     .vertical-desc {
         width: 130px;
@@ -634,18 +634,139 @@ footer .copyright {
     footer {
         display: none;
     }
-}
+} */
 
+/* Media query for screens with a maximum width of 400px */
 @media screen and (max-width: 400px) {
-    body {
-        min-width: fit-content;
+    /* Navbar */
+    nav {
+        height: auto;
     }
 
-    .right-section {
-        width: 1411px !important;
+    nav ul {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .left-section {
-        align-items: none;
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    /* First Section */
+    .first-section {
+        flex-direction: column;
+    }
+
+    .first-section>div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Second and Third Section */
+    .second-section,
+    .third-section {
+        margin: 20px 0;
+    }
+
+    .box {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .vertical {
+        margin: 20px 0;
+    }
+
+    .vertical-title,
+    .vertical-desc {
+        text-align: center;
+        width: 100%;
+    }
+
+    .vertical-desc ul {
+        margin: 10px 0;
+    }
+
+    /* Tech Details Section */
+    .techDetails {
+        height: auto;
+    }
+
+    .tech {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    #myImg {
+        width: 80px;
+        height: 80px;
+        padding: 0;
+    }
+
+    /* Contact Page */
+    .contactSection {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .contactSection-left {
+        width: 100%;
+    }
+
+    .contactSection-right {
+        width: 70vw;
+        height: 70vw;
+        margin-right: 0;
+    }
+
+    .line,
+    .c1 {
+        display: none;
+    }
+
+    .myInfo>h1 {
+        font-size: 24px;
+    }
+
+    .infoSection {
+        margin-top: 20px;
+    }
+
+    .infos {
+        flex-direction: column;
+        padding-left: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /* Project List Section */
+    .projectList {
+        padding: 0 20px;
+    }
+
+    .projects li {
+        margin-right: 20px;
+    }
+
+    .projects li h2 {
+        font-size: 16px;
+    }
+
+    /* About Section */
+    .abouttHeading>h1 {
+        font-size: 22px;
+    }
+
+    .abouttHeading>h5 {
+        font-size: 12px;
+    }
+
+    .first-section p {
+        font-size: 10px;
     }
 }
