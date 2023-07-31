@@ -445,9 +445,11 @@ h1 {
     0% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(-2.4rem);
     }
+
     100% {
         transform: translateY(0);
     }
@@ -472,7 +474,7 @@ h1 {
     box-shadow: 0 0 1rem #0ef;
 }
 
-.socialIcon a i{
+.socialIcon a i {
     margin-left: 9px;
 }
 
@@ -498,7 +500,7 @@ h1 {
     font-size: 15px;
 }
 
-.first-section p{
+.first-section p {
     font-size: 12px;
 }
 
@@ -508,7 +510,7 @@ h1 {
     margin: 35px;
 }
 
-.techSkill .projects h2{
+.techSkill .projects h2 {
     color: #7878cf;
 }
 
@@ -536,7 +538,8 @@ footer {
 .footer-second {
     margin-top: 20px;
     font-size: 20px;
-    color: rgb(153, 153, 226);;
+    color: rgb(153, 153, 226);
+    ;
 }
 
 .footer-third ul li {
@@ -575,6 +578,15 @@ footer .copyright {
 
     nav {
         flex-direction: column;
+        padding: 13px;
+    }
+
+    nav ul {
+        font-size: 23px;
+    }
+
+    .left {
+        font-size: 36px;
     }
 
     .first-section {
@@ -597,15 +609,15 @@ footer .copyright {
     }
 
     .right-section img {
-        width: 45vw;
-        margin-bottom: 73px;
+        width: 78vw;
+        margin-bottom: 27px;
     }
 
     .second-section {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 130vh;
+        height: 100vh;
     }
 
     .box {
@@ -642,17 +654,18 @@ footer .copyright {
         min-width: fit-content;
     }
 
-    .first-section{
+    .first-section {
         margin: 15px 0;
     }
 
     .right-section {
         width: 100% !important;
+        height: 130vh;
     }
 
     .right-section img {
         width: 96vw;
-    margin-bottom: 30px;
+        margin-bottom: 30px;
     }
 
     .left-section {
