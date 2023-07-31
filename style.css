@@ -593,6 +593,31 @@ footer .copyright {
         flex-direction: column-reverse;
     }
 
+    .aboutFirst {
+        display: block;
+        margin: 132px 0px;
+    }
+
+    .abouttHeading {
+        position: absolute;
+        top: 30%;
+    }
+
+    .aboutImg {
+        height: 53vh !important;
+    }
+
+    .aboutImg img {
+        width: 46vw !important;
+        height: 43vw !important;
+        margin-bottom: -30px;
+        margin-top: 47px;
+    }
+
+    .first-section p {
+        padding: 5px 54px;
+    }
+
     .left-section {
         width: 100% !important;
         display: flex;
