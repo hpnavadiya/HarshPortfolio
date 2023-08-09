@@ -382,7 +382,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 0px;
+    margin: -54px 0px 20px 0px;
     padding: 0px 50px;
 }
 
@@ -390,7 +390,7 @@ h1 {
     list-style-type: none;
     max-width: 800px;
     /* Adjust this value as needed */
-    margin: 0 auto;
+    margin:  auto;
     padding: 20px;
 }
 
@@ -824,6 +824,8 @@ footer .copyright {
         min-width: fit-content;
     }
 
+    /* Navbar  */
+
     nav {
         height: 54px;
     }
@@ -840,8 +842,16 @@ footer .copyright {
         font-size: 14px;
     }
 
+    /* Navbar End  */
+
+    /* Index page  */
+
     .first-section {
         margin: 15px 0;
+    }
+
+    .second-section {
+        height: 88vh !important;
     }
 
     .right-section {
@@ -862,15 +872,23 @@ footer .copyright {
         padding: 22px 0;
     }
 
-    #myImg{
-        padding: 0px;
-    }
-
-    .aboutImg {
+    .tech h3 {
         display: none;
     }
 
-    .tech h3 {
+    #myImg{
+        padding: 0px;
+    }
+    
+    .tech {
+        gap: 0px;
+    }
+
+    /* Index page End  */
+
+    /* About page  */
+
+    .aboutImg {
         display: none;
     }
 
@@ -886,27 +904,83 @@ footer .copyright {
         margin-bottom: 0px;
     }
 
-    .projects {
-        max-width: 100%;
-        padding: 10px;
+    /* About page End  */
+
+    /* Project page Start  */
+
+    .projectPage{
+        width: auto;
     }
 
-    .projectNum ul {
-        padding-left: 15px;
+    .projectHeading {
+        height: 13%;
+    }
+
+    .projectHeading>h1 {
+        margin-top: 0px;
+        font-size: 16px;
+    }
+
+    .projectHeading>h5 {
+        top: -35%;
+    }
+
+    .projectSection {
+        height: 62%;
+        width: 94%;
+        left: 49%;
+    }
+
+    .projectInfo {
+        padding: 0px 9px;
+        height: 45%;
+        width: 96.3%;
+    }
+
+    .project {
+        height: 35%;
+    }
+
+    .projectDesc {
+        padding: 0px;
+    }
+
+    .projectDesc p {
+        padding: 0px 7px;
+        font-size: 11px;
+    }
+
+    .p1 {
+        position: relative;
+        top: -28%;
+    }
+
+    .p2 {
+        position: relative;
+        top: -40%;
+    }
+
+    .p3 {
+        position: relative;
+        top: -55%;
+    }
+
+    .pList{
+        margin-top: -82px;
+    }
+
+    .projectList{
+        margin: 0px;
+        padding: 0px;
     }
 
     .projectNum li {
         margin-bottom: 10px;
     }
 
-    .projectNum label {
-        display: block;
-        margin-bottom: 5px;
-    }
+    /* Project Page End  */
 
-    .projectNum input {
-        width: 100%;
-    }
+    /* Contact Page  */
 
     .contactSection-right {
         height: 46vw;
@@ -950,7 +1024,5 @@ footer .copyright {
         margin-top: 2px !important;
     }
 
-    .tech {
-        gap: 0px;
-    }
+    /* Contact Page End */
 }
