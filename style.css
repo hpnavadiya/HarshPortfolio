@@ -382,14 +382,16 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* max-width: 100vw;
-    max-height: 100vh; */
     margin: 30px 0px;
     padding: 0px 50px;
 }
 
 .projects {
     list-style-type: none;
+    max-width: 800px;
+    /* Adjust this value as needed */
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .projects>h2 {
@@ -802,7 +804,7 @@ footer .copyright {
         width: 4vw;
     }
 
-    .circle h1{
+    .circle h1 {
         font-size: 15px;
     }
 
@@ -817,9 +819,25 @@ footer .copyright {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     body {
         min-width: fit-content;
+    }
+
+    nav {
+        height: 54px;
+    }
+
+    .left {
+        font-size: 20px;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    nav ul {
+        font-size: 14px;
     }
 
     .first-section {
@@ -828,23 +846,111 @@ footer .copyright {
 
     .right-section {
         width: 100% !important;
-        height: 130vh;
+        height: 63vh !important;
     }
 
     .right-section img {
-        width: 96vw;
+        width: 89vw !important;
         margin-bottom: 30px;
     }
 
     .left-section {
-        align-items: none;
+        font-size: 20px;
     }
 
-    nav ul {
-        font-size: 17px;
+    .left-section .button {
+        padding: 22px 0;
+    }
+
+    #myImg{
+        padding: 0px;
+    }
+
+    .aboutImg {
+        display: none;
     }
 
     .tech h3 {
         display: none;
+    }
+
+    .abouttHeading {
+        display: none;
+    }
+
+    .techSkill .projects h2 {
+        font-size: 30px;
+    }
+
+    .projects>h2 {
+        margin-bottom: 0px;
+    }
+
+    .projects {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .projectNum ul {
+        padding-left: 15px;
+    }
+
+    .projectNum li {
+        margin-bottom: 10px;
+    }
+
+    .projectNum label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .projectNum input {
+        width: 100%;
+    }
+
+    .contactSection-right {
+        height: 46vw;
+        width: 46vw;
+    }
+
+    .l2 {
+        width: 40%;
+        top: 55%;
+    }
+
+    .circle {
+        height: 9vw;
+        width: 9vw;
+    }
+
+    .c1 {
+        margin-right: 53px;
+    }
+
+    .contactSection {
+        height: 60vh;
+    }
+
+    .myInfo>h1 {
+        padding-top: 24px;
+        font-size: 22px;
+    }
+
+    .infos {
+        width: 160%;
+        gap: 12px;
+    }
+
+    .infos h1 {
+        font-size: 13px;
+        gap: 12px;
+    }
+
+    .infos .circle {
+        margin-top: 2px !important;
+    }
+
+    .tech {
+        gap: 0px;
     }
 }
